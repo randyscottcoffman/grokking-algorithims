@@ -5,3 +5,17 @@ O(n) - linear time - ex. Simple Search
 O(n * log n) - ex. quick sort
 O(n^2) - ex. selection sort
 O(n!) - ex. traveling salesperson (very slow)
+
+
+                Arrays      Lists
+Reading         O(1)        O(n)
+Insertion       O(n)        O(1)
+Deletion        O(n)        O(1)
+
+array vs linked list
+Arrays know the address for each item and can lookup instantly
+linked lists only know of their neighbor within the list
+lists are better to insert within the middle since arrays have to shift all the other elements down. This is also true for deleting elements.
+Deletions can always work unlike insertions since those can fail if there is no space left in the memory.
+Arrays are seen more due to allowing random access, unlike linked lists having sequential access.
+
