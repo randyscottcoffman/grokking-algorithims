@@ -1,0 +1,7 @@
+fastest to slowest
+
+O(log n) - log time - ex. Binary Search
+O(n) - linear time - ex. Simple Search
+O(n * log n) - ex. quick sort
+O(n^2) - ex. selection sort
+O(n!) - ex. traveling salesperson (very slow)
